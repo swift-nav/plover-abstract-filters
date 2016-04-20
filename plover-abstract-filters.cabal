@@ -1,4 +1,4 @@
-name:                plover-filter
+name:                plover-abstract-filters
 
 -- The package version.  See the Haskell package versioning policy (PVP)
 -- for standards guiding when and how versions should be incremented.
@@ -15,7 +15,7 @@ description: Library for building filters on top of plover
 license:             MIT
 license-file:        LICENSE
 
-homepage:            https://github.com/swift-nav/plover-filter
+homepage:            https://github.com/swift-nav/plover-abstract-filters
 author:              Swift Navigation Inc.
 copyright:           Copyright (C) 2016 Swift Navigation Inc.
 maintainer:          Fergus Noble <dev@swiftnav.com>
@@ -43,5 +43,5 @@ library
 
 source-repository head
   type:              git
-  location:          git@github.com:swift-nav/plover-filter.git
+  location:          git@github.com:swift-nav/plover-abstract-filters.git
 
