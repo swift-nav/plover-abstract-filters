@@ -1,0 +1,10 @@
+flags: {}
+packages:
+  - '.'
+  - '../plover'
+resolver: lts-3.13
+extra-deps:
+  - plover-0.1.0
+  - data-fix-0.0.1
+  - language-c-quote-0.11.4
+

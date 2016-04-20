@@ -1,0 +1,47 @@
+name:                plover-filter
+
+-- The package version.  See the Haskell package versioning policy (PVP)
+-- for standards guiding when and how versions should be incremented.
+-- http://www.haskell.org/haskellwiki/Package_versioning_policy
+-- PVP summary:      +-+------- breaking API changes
+--                   | | +----- non-breaking API additions
+--                   | | | +--- code changes with no API change
+version:             0.1.0.0
+
+synopsis: Library for building filters on top of plover
+
+description: Library for building filters on top of plover
+
+license:             MIT
+license-file:        LICENSE
+
+homepage:            https://github.com/swift-nav/plover-filter
+author:              Swift Navigation Inc.
+copyright:           Copyright (C) 2016 Swift Navigation Inc.
+maintainer:          Fergus Noble <dev@swiftnav.com>
+
+category:            Language, Math, Linear Algebra
+
+build-type:          Simple
+
+extra-source-files:  README.md
+
+cabal-version:       >=1.22
+
+library
+  exposed-modules:
+                     Language.Plover.Filter
+
+  build-depends:     base     >=4.8
+                   , plover
+                   , ad       >=4.2
+
+  hs-source-dirs:    src/
+  ghc-options:
+              -- -Wall -Werror
+  default-language:  Haskell2010
+
+source-repository head
+  type:              git
+  location:          git@github.com:swift-nav/plover-filter.git
+
